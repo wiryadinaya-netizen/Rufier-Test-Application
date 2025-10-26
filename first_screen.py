@@ -37,6 +37,7 @@ class MainWindow(QWidget):
 
     def next_click(self):
         self.hide()
+       
         self.second_win = TestWin()
         
 
